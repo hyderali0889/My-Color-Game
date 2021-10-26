@@ -19,7 +19,7 @@ class Main extends React.Component {
 
 
         let newgame = () => {
-            let box_count = 3;
+            let box_count = 4;
             this.setState({ box: box_count })
             const newColor = RandomGenerator(box_count);
 
