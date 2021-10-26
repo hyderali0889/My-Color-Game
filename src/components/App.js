@@ -2,22 +2,12 @@ import React from "react";
 import "../css/App.css"
 import { RandomGenerator } from "../logics/Logics"
 class Main extends React.Component {
-
     state = {
-
         color: '',
         main_color: '',
         box: '',
-
-
     }
-
-
     render() {
-
-
-
-
         let newgame = () => {
             let box_count = 3;
             this.setState({ box: box_count })
